@@ -1,0 +1,27 @@
+* {
+    border: 1px solid red;
+}
+
+.about-me {
+    margin-top: 60px;
+}
+
+.text{
+    border-top: 1px solid black;
+}
+
+
+
+/* @media screen and (max-width: 500px) {
+    .about-me {
+      display: none;
+    }
+    .about-three {
+        display: initial;
+    }
+  }
+
+  .about-three {
+    
+    display: none;
+} */
