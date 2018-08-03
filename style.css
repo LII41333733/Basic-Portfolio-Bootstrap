@@ -10,18 +10,13 @@
     border-top: 1px solid black;
 }
 
+.show {
+    display:none;
+}
 
 
-/* @media screen and (max-width: 500px) {
-    .about-me {
-      display: none;
+@media screen and (max-width: 500px){ 
+    .show {
+        display: block;
     }
-    .about-three {
-        display: initial;
-    }
-  }
-
-  .about-three {
-    
-    display: none;
-} */
+}
