@@ -1,18 +1,24 @@
-* {
+/* * {
     border: 1px solid red;
+} */
+
+html, body {
+    font-family: 'Montserrat', sans-serif;
 }
 
 .about-me {
     margin-top: 60px;
 }
 
-.text{
-    border-top: 1px solid black;
+.about-me p {
+    font-size: 0.9rem;
 }
 
+
 .show {
-    display:none;
+    display: none;
 }
+
 
 
 @media screen and (max-width: 500px){ 
@@ -20,3 +26,13 @@
         display: block;
     }
 }
+
+p {
+    line-height: 26px;
+
+}
+
+img {
+    vertical-align: middle;
+}
+
