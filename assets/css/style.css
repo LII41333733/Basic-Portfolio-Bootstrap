@@ -8,6 +8,12 @@ html, body {
     width: 85%;
 }
 
+nav .container {
+    margin: 0;
+    width: 85%;
+    padding: 0;
+}
+
 h1 {
     font-size: 2rem;
     padding-bottom: 15px;
@@ -76,13 +82,10 @@ p {
     }
 
     p {
-        font-size: 1rem;
+        font-size: 0.9rem;
         text-align: center;
     }
 
-    container {
-        width: 100%;
-    }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px){ 
@@ -94,8 +97,17 @@ p {
     .contact-html img {
         padding: 0;
     }
+}
 
-    container {
-        width: 100%;
-    }
+.card:hover
+{
+	
+		-moz-box-shadow: 0 0 50px #ccc;
+		-webkit-box-shadow: 0 0 50px #ccc;
+		box-shadow: 0 0 50px rgb(43, 24, 24);
+	
+}
+
+.card-title {
+    margin: 0;
 }
