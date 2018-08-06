@@ -2,10 +2,34 @@ html, body {
     font-family: 'Montserrat', sans-serif;
 }
 
+body {
+    background: url(../images/background-body.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: rgb(44, 53, 169);
+}
+
 .container {
-    margin-top: 35px;
+    margin-top: 70px;
     margin-bottom: 150px;
     width: 85%;
+}
+
+.main {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 25px;
+    padding: 20px;
+    margin-top: 150px;
+}
+
+.portfolio-html .main {
+    margin-top: 250px;
+}
+
+.contact-html .main {
+    margin-top: 180px;
 }
 
 nav .container {
@@ -14,19 +38,25 @@ nav .container {
     padding: 0;
 }
 
+.navbar {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
 h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     padding-bottom: 15px;
-    margin-bottom: 45px;
-    border-bottom: 1px solid black;
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgb(44, 53, 169);
 }
 
 p {
-    line-height: 30px;
-    font-size: 1.1rem;
+    line-height: 32px;
+    font-size: 1.0rem;
     margin: 0;
     padding: 0;
-    
+    font-weight: 400;
+    color: rgb(44, 53, 169);
 }
 
 .about-me-html img {
@@ -38,7 +68,7 @@ p {
     background-color: #666666;
     line-height: 40px;
     height: 45px;
-    border-top: 6px solid #4aaaa5;
+    border-top: 6px solid rgb(44, 53, 169)3;
     text-align: center;
     width: 100%;
     font-size: 0.75rem;
@@ -47,7 +77,7 @@ p {
     bottom: 0px;
     width: 100%;
     overflow: visible;
-    z-index: 99;
+    z-index: 1;
     margin-top: 40px;
 }
 
@@ -102,12 +132,16 @@ p {
 .card:hover
 {
 	
-		-moz-box-shadow: 0 0 50px #ccc;
-		-webkit-box-shadow: 0 0 50px #ccc;
-		box-shadow: 0 0 50px rgb(43, 24, 24);
+		-moz-box-shadow: 0 0 25px rgb(43, 24, 24);
+		-webkit-box-shadow: 0 0 25px rgb(43, 24, 24);
+		box-shadow: 0 0 25px rgb(43, 24, 24);
 	
 }
 
 .card-title {
     margin: 0;
+}
+
+.btn {
+    margin: 20px;
 }
