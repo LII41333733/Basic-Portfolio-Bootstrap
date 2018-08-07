@@ -1,5 +1,8 @@
 html, body {
-    font-family: 'Montserrat', sans-serif;
+    
+    
+font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+
 }
 
 body {
@@ -17,7 +20,7 @@ body {
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 25px;
     padding: 20px;
-    margin-top: 100px;
+    margin-top: 80px;
     margin-bottom: 150px;
 }
 
@@ -45,16 +48,17 @@ nav .container {
 .navbar-brand {
     font-size: 1.50rem;
     font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .navbar-light .navbar-brand {
     color: rgb(38, 72, 117);
-    letter-spacing: 8px;
+    letter-spacing: 10px;
 }
 
 .navbar-toggler-icon {
-    height: 0.5em;
-    width: 0.5em;
+    height: 0.2em;
+    width: 0.2em;
 }
 
 h1 {
@@ -67,18 +71,16 @@ h1 {
 }
 
 p {
-    line-height: 28px;
-    font-size: 1.0rem;
+    line-height: 34px;
+    font-size: 0.95rem;
     margin: 0;
     padding: 0;
     font-weight: 400;
     color: rgb(38, 72, 117);
 }
 
-.about-me-html img {
-    padding: 0 2% 4% 0;
-
-
+.img-fluid {
+    border-radius: 15px;
 }
 
 .footer {
@@ -112,6 +114,11 @@ p {
 }
 
 
+/* @media screen and (max-width: 670px) {
+    .container {
+        width: 100%;
+    }
+} */
 
 @media screen and (max-width: 991px){ 
     h1 {
@@ -127,16 +134,16 @@ p {
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 10px;
-        padding: 20px;
+        max-height: 250px;
     }
 
     p {
-        font-size: 0.9rem;
+        font-size: 0.95rem;
         text-align: center;
     }
 
     .container {
-        width: 75%;
+        width: 70%;
     }
 
     .navbar-brand {
@@ -144,17 +151,31 @@ p {
         font-weight: 600;
     }
 
+    body {
+        background: url(../images/background-body.jpg);
+        background-repeat: no-repeat;
+        background-position: inherit;
+        background-size: cover;
+        background-attachment: fixed;
+        color: rgb(0, 122, 255);
+    }
+
+    img.img-fluid {
+        border-radius: 15px;
+    }
+
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px){ 
     p {
-        font-size: 1rem;
-        line-height: 28px;
+        font-size: 0.95rem;
+        line-height: 30px;
     }
 
     .contact-html img {
         padding: 0;
     }
+
 }
 
 .card:hover
@@ -178,4 +199,19 @@ p {
 h5 {
     font-size: 1rem;
     color: rgb(38, 72, 117);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color:rgb(38, 72, 117);
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: rgb(38, 72, 117);
+    border-color: rgb(38, 72, 117);
+}
+
+.centered {
+    text-align: center;
+    padding-top: 10px;
 }
