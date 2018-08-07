@@ -8,28 +8,28 @@ body {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    color: rgb(44, 53, 169);
+    color: rgb(0, 122, 255);
 }
 
 .container {
-    margin-top: 70px;
-    margin-bottom: 150px;
+    margin-top: 80px;
+    margin-bottom: 100px;
     width: 85%;
 }
 
 .main {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.9);
     border-radius: 25px;
     padding: 20px;
     margin-top: 150px;
 }
 
-.portfolio-html .main {
-    margin-top: 250px;
+.about-me-html .main {
+    margin-top: 100px;
 }
 
 .contact-html .main {
-    margin-top: 180px;
+    margin-top: 80px;
 }
 
 nav .container {
@@ -41,44 +41,65 @@ nav .container {
 .navbar {
     padding-top: 2px;
     padding-bottom: 2px;
+    background-color: rgb(1, 89, 250);
+    opacity: 0.9;
+}
+
+.navbar-brand {
+    font-size: 1.50rem;
+    font-weight: 600;
+}
+
+.navbar-light .navbar-brand {
+    color: rgb(62, 129, 220);
+    letter-spacing: 7px;
+}
+
+.navbar-toggler-icon {
+    height: 0.5em;
+    width: 0.5em;
 }
 
 h1 {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     padding-bottom: 15px;
     margin-bottom: 15px;
-    border-bottom: 1px solid rgb(44, 53, 169);
+    color: rgb(62, 129, 220);
+    border-bottom: 1px solid rgb(62, 129, 220);
+    letter-spacing: 2px;
 }
 
 p {
-    line-height: 32px;
+    line-height: 28px;
     font-size: 1.0rem;
     margin: 0;
     padding: 0;
     font-weight: 400;
-    color: rgb(44, 53, 169);
+    color: rgb(62, 129, 220);
 }
 
 .about-me-html img {
-    padding: 0 2% 4% 0;
+    /* padding: 0 2% 4% 0; */
+
 
 }
 
 .footer {
-    background-color: #666666;
-    line-height: 40px;
-    height: 45px;
-    border-top: 6px solid rgb(44, 53, 169)3;
+    /* background-color: rgb(1, 89, 250); */
+    line-height: 35px;
+    height: 40px;
+    /* border-top: 4px solid  rgba(255, 255, 255, 0.8); */
     text-align: center;
     width: 100%;
     font-size: 0.75rem;
-    color: rgba(255, 255, 255, 0.796);
+    background-color: rgba(255, 255, 255, 0.796);
     position: fixed;
     bottom: 0px;
     width: 100%;
     overflow: visible;
     z-index: 1;
     margin-top: 40px;
+    opacity: 0.9;
 }
 
 #footer {
@@ -108,12 +129,22 @@ p {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
+        padding: 20px;
     }
 
     p {
         font-size: 0.9rem;
         text-align: center;
+    }
+
+    .container {
+        width: 75%;
+    }
+
+    .navbar-brand {
+        font-size: 1.25rem;
+        font-weight: 600;
     }
 
 }
@@ -132,16 +163,19 @@ p {
 .card:hover
 {
 	
-		-moz-box-shadow: 0 0 25px rgb(43, 24, 24);
-		-webkit-box-shadow: 0 0 25px rgb(43, 24, 24);
-		box-shadow: 0 0 25px rgb(43, 24, 24);
+		-moz-box-shadow: 0 0 25px rgb(62, 129, 220);
+		-webkit-box-shadow: 0 0 25px rgb(62, 129, 220);
+		box-shadow: 0 0 25px rgb(62, 129, 220);
 	
 }
 
 .card-title {
     margin: 0;
+
 }
 
-.btn {
-    margin: 20px;
+
+
+h5 {
+    font-size: 1rem;
 }
